@@ -1,0 +1,123 @@
+* {
+  text-shadow: none;
+  font-family:sans-serif;
+    color:white;
+}
+
+#page1, #addAlarmPage {
+  background-color: #2196F3; 
+    height:100%;
+}
+
+#digitalClock {
+    width: 100%;
+    height: 25%;
+    margin: auto;
+    color:white;
+    font-size:5em;
+    text-align: center;
+}
+
+.lineSeparate{
+    height:1px;
+    background-color:#1976D2;
+    margin:5%;
+}
+
+#analogClock{
+    
+    margin-top:2%;
+}
+
+.heading{
+    font-size:1.5em;
+}
+
+#nextAlarm{
+    text-align:center;
+}
+
+
+
+#buttonContainerHome{
+    color:white;
+    background-color: #2196F3 !important; 
+}
+
+
+
+
+
+
+/*======Edited via the jquery theme roller css creator used for the jquery framework=====*/
+
+/* Bar: Toolbars, dividers, slider track */
+.ui-bar-a,
+.ui-page-theme-a .ui-bar-inherit,
+html .ui-bar-a .ui-bar-inherit,
+html .ui-body-a .ui-bar-inherit,
+html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: #2196F3 /*{a-bar-background-color}*/;
+	border-color: #2196F3 /*{a-bar-border}*/;
+    width:100%;
+}
+
+.ui-overlay-a,
+.ui-page-theme-a,
+.ui-page-theme-a .ui-panel-wrapper {
+	background-color: #2196F3 /*{a-page-background-color}*/;
+	border-color: #2196F3 /*{a-page-border}*/;
+}
+
+/* Button up */
+.ui-page-theme-a .ui-btn,
+html .ui-bar-a .ui-btn,
+html .ui-body-a .ui-btn,
+html body .ui-group-theme-a .ui-btn,
+html head + body .ui-btn.ui-btn-a,
+/* Button visited */
+.ui-page-theme-a .ui-btn:visited,
+html .ui-bar-a .ui-btn:visited,
+html .ui-body-a .ui-btn:visited,
+html body .ui-group-theme-a .ui-btn:visited,
+html head + body .ui-btn.ui-btn-a:visited {
+	background-color: #64B5F6 /*{a-bup-background-color}*/;
+	border-color: #2196F3 /*{a-bup-border}*/;
+	color: #ffffff /*{a-bup-color}*/;
+    width:100%;
+	
+}
+/* Button hover */
+.ui-page-theme-a .ui-btn:hover,
+html .ui-bar-a .ui-btn:hover,
+html .ui-body-a .ui-btn:hover,
+html body .ui-group-theme-a .ui-btn:hover,
+html head + body .ui-btn.ui-btn-a:hover {
+	background-color: #F06292 /*{a-bhover-background-color}*/;
+	border-color: #458fef /*{a-bhover-border}*/;
+	color: #ffffff /*{a-bhover-color}*/;
+
+}
+/* Button down */k
+.ui-page-theme-a .ui-btn:active,
+html .ui-bar-a .ui-btn:active,
+html .ui-body-a .ui-btn:active,
+html body .ui-group-theme-a .ui-btn:active,
+html head + body .ui-btn.ui-btn-a:active {
+	background-color: #458fef /*{a-bdown-background-color}*/;
+	border-color: #254e83 /*{a-bdown-border}*/;
+	color: #ffffff /*{a-bdown-color}*/;
+	
+}
+
+input{
+    font-size:100px;
+}
+
+
+/*======================ADD ALARM ====================*/
+
+#timeInput{
+    width:50%;
+    height:100px;
+}

@@ -1,0 +1,49 @@
+/*=============This was taken from a codepen at: http://codepen.io/WinterJoey/pen/FlhcJ by Joseph Shambrook
+ */
+.circle(@width:15px) {
+	border-radius: 100%;
+	display: block;
+	height: @width;
+	width: @width;
+    margin:auto;
+}
+
+.hands() {
+	background: #fff;
+	height: 0;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	width: 0;
+
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+}
+
+.container {
+	margin: 40px auto 20px;
+	width: 200px;
+}
+
+.clock {
+  border: 5px solid #FFF;
+  .circle(250px);
+  position: relative;
+    
+  .hour  {
+    .hands();
+    margin: -60px -2px 0;
+    padding: 60px 2px 0;
+  }
+
+  .minute {
+    .hands();
+    margin: -105px -2px 0;
+    padding: 105px 2px 0;
+  }
+}
+
+/*=============================================================================*/
